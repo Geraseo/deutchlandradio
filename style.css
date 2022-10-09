@@ -103,7 +103,7 @@ iframe {
         /* border: 1px solid yellow; */
         width: 10%;
         height: 80%;
-        background-image: url(marija.jpeg);
+        background-image: url(/img/marija.jpeg);
         background-size: 100% 100%;
         background-size: cover;
         position: relative;
@@ -113,7 +113,7 @@ iframe {
 .marija:hover:before {
         background-color: rgba(0, 0, 0, 0.549);
         content: '';
-        background-image: url(./button.png);
+        background-image: url(/img/button.png);
         background-size: 100% 100%;
         background-size: contain;
         background-repeat: no-repeat;
@@ -138,7 +138,7 @@ footer {
         justify-content: space-around;
 }
 footer > div > a{
-        font-size: 1sem;
+        font-size: 1em;
         text-decoration: none;
         color: #888;
 }
